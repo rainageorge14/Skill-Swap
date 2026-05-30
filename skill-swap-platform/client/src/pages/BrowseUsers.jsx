@@ -49,7 +49,7 @@ function BrowseUsers() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/send-request",
+        "http://skill-swap-1-a5b8.onrender.com/api/auth/send-request",
         {
           sender: currentUser.id,
           receiver: receiverId

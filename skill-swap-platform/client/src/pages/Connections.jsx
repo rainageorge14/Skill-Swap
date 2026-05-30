@@ -19,7 +19,7 @@ function Connections() {
     try {
 
       const response = await axios.get(
-        `http://localhost:5000/api/auth/connections/${user.id}`
+        `http://skill-swap-1-a5b8.onrender.com/api/auth/connections/${user.id}`
       );
 
       setConnections(response.data);

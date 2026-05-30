@@ -42,7 +42,7 @@ function Requests() {
     try {
 
       await axios.put(
-        `http://localhost:5000/api/auth/request-status/${requestId}`,
+        `http://skill-swap-1-a5b8.onrender.com/api/auth/request-status/${requestId}`,
         { status }
       );
 

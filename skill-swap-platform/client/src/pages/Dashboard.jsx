@@ -31,7 +31,7 @@ function Dashboard() {
     try {
 
       const response = await axios.put(
-        `http://localhost:5000/api/auth/update-profile/${user.id}`,
+        `http://skill-swap-1-a5b8.onrender.com/api/auth/update-profile/${user.id}`,
         {
           bio,
           teaches: teaches.split(","),

@@ -63,7 +63,7 @@ function Chat() {
 
       await axios.post(
 
-        "http://localhost:5000/api/auth/send-message",
+        "http://skill-swap-1-a5b8.onrender.com/api/auth/send-message",
 
         {
           sender: currentUser.id,

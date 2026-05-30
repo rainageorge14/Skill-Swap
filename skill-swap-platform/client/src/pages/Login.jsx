@@ -28,7 +28,7 @@ function Login() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "http://skill-swap-1-a5b8.onrender.com/api/auth/login",
         formData
       );
 
